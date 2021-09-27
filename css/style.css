@@ -1,0 +1,44 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.center {
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+#paddedbox {
+    padding: 20px;
+}
+
+body {
+    background-color: #16c0c9;
+}
+
+p {
+    font: normal 1rem Arial;
+}
+
+a:link { 
+    color: #2346C8; 
+} 
+
+a:visited { 
+    color: #7C7EEF; 
+}
+
+a:hover { 
+    color: #d1c70a; 
+}
+
