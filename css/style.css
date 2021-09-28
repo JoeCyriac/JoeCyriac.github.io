@@ -42,3 +42,15 @@ a:hover {
     color: #d1c70a; 
 }
 
+ul>li>a>p {
+    font-size: 12px;
+}
+
+ul>li>a:hover {
+    text-decoration: solid;
+}
+
+ul>li>a {
+    color:black
+}
+
