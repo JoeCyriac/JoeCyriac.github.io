@@ -30,12 +30,16 @@ p {
     font: normal 1rem Arial;
 }
 
+.fList{
+    font: normal 1rem Arial;
+}
+
 a:link { 
     color: #2346C8; 
 } 
 
 a:visited { 
-    color: #7C7EEF; 
+    color: #303282; 
 }
 
 a:hover { 
@@ -52,5 +56,9 @@ ul>li>a:hover {
 
 ul>li>a {
     color:black
+}
+
+.button{
+    width: 40px;
 }
 

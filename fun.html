@@ -11,7 +11,7 @@
 
 <body>
     <div class="off-canvas-wrapper">
-        <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+        <div class="off-canvas show-for-small-only position-bottom" id="offCanvas" data-off-canvas>
             <h3 class="text-center"> Browse Pages
                 <button style="float: right;" type="button" data-close>
                     <span>&times;</span>
@@ -26,9 +26,22 @@
         </div>
 
         <div class="off-canvas-content" data-transition="overlap" data-off-canvas-content>
-            <button class="menu-icon cell small-4 flex-container align-middle" data-open="offCanvas"
-                style="color: black; float: left"></button>
-            <br>
+            <button class="menu-icon cell show-for-small-only small-3 flex-container align-middle button" data-open="offCanvas" style="color: black; background-color: #16c0c9; float: left"></button>
+                <div class="grid-y">
+                    <div class="grid-x"></div>
+                        <ul class="menu hide-for-small-only fList">
+                            <li>
+                                <a href="index.html" target="_blank"><p>Home</p></a>
+                            </li>
+                            <li>
+                                <a href="resume.html" target="_blank"><p>Resume</p></a>
+                            </li>
+                            <li>
+                                <a href="projects.html" target="_blank"><p>Projects</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
             <h1 class="center"><b>Fun</b></h1>
             <h2 class="center">Welcome! On this page, you will get to know a little more about my interests and what I like to do
                 in my
