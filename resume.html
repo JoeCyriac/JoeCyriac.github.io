@@ -11,131 +11,183 @@
 
 <body>
 
-    <h1 class="center">Welcome to my Resume Page</h1>
-    <h6 class="center"> On this page, you will get to see some of my accomplishments and experiences.</h6>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+            <h3 class="text-center"> Browse Pages
+                <button style="float: right;" type="button" data-close>
+                    <span>&times;</span>
+                </button>
+            </h3>
 
-    <br><br>
-
-    <h5><b>&emsp;<u>Strengths</u></b></h5>
-
-    <ul>
-        <div class="grid-y">
-            <div class="grid-x grid-padding-x">
-                <div class="auto cell"><li>Leadership</li></div>
-                <div class="auto cell"><li>Problem Solving</li></div>
-                <div class="auto cell"><li>Time Management</li></div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <div class="auto cell"><li>Collaboration</li></div>
-                <div class="auto cell"><li>Mathematics</li></div>
-                <div class="auto cell"><li>Communication Skills</li></div>
-            </div>
-        </div>
-    </ul>
-
-    <br>
-
-    <h5><b>&emsp;<u>Education</u></b></h5>
-    <div class="grid-y">
-        <div class="grid-x grid-padding-x">
-            <div class="small-auto medium-9 cell"><h7><a href="https://www.stthomas.edu" target="_blank"> University of St. Thomas</a></h7></div>
-            <div class="small-auto medium-3 cell"><h7><u>2018 - 2022</u></h7></div>
-        </div>
-    </div>
-    <div class="grid-y">
-        <div class="grid-x grid-padding-x indent1">
-            <div class="auto cell"> <b>Major:</b> Computer Science</div>
-        </div>
-        <div class="grid-x grid-padding-x indent1">
-            <div class="auto cell"> <b>Minor:</b> Applied Statistics</div>
-        </div>
-    </div>
-    <br>
-
-    <h5><b>&emsp;<u>Work Experience</u></b></h5>
-    <div class="grid-y">
-        <div class="grid-x grid-padding-x">
-            <div class="small-9 cell"><h7><a href="https://www.bestbuy.com/" target="_blank"> &emsp;&emsp;Best Buy</a></h7></div>
-        </div>  
-        <ul class="indent1">
-            <li>Assisted with the Information Security Risk Management Program:</li>
-            <ul class="indent2">
-                <li>Performed review and validation of known issues and threats.</li>
-                <li>Engaged with various stakeholders to drive remediation.</li>
-                <li>Collaborated with several business units and leaders to improve awareness and
-                    accountability.</li>
-                <li>Updated and revised the organization’s Information Security Standards and Questionnaire.</li>
+            <ul class="menu vertical text-center" id="navmenu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="projects.html" target="_self">Projects</a></li>
+                <li><a href="fun.html" target="_self">Fun</a></li>
             </ul>
-            <li>Assisted with the Information Security Risk Quantification Project:</li>
-            <ul class="indent2">
-                <li>Maintained project documentation.</li>
-                <li>Conducted meetings with stakeholders.</li>
-                <li>Identified areas of risk for potential short-term and long-term improvement.</li>
+        </div>
+
+        <div class="off-canvas-content" data-transition="overlap" data-off-canvas-content>
+            <button class="menu-icon cell small-4 flex-container align-middle" data-open="offCanvas" style="color: black; float: left"></button>
+            <br>
+            <h1 class="center"><b>Resume</b></h1>
+            <h6 class="center"> Welcome! On this page, you will get to see some of my accomplishments and experiences.</h6>
+
+            <br><br>
+
+            <h5><b>&emsp;<u>Strengths</u></b></h5>
+
+            <ul>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="auto cell">
+                            <li>Leadership</li>
+                        </div>
+                        <div class="auto cell">
+                            <li>Problem Solving</li>
+                        </div>
+                        <div class="auto cell">
+                            <li>Time Management</li>
+                        </div>
+                    </div>
+                    <div class="grid-x grid-padding-x">
+                        <div class="auto cell">
+                            <li>Collaboration</li>
+                        </div>
+                        <div class="auto cell">
+                            <li>Mathematics</li>
+                        </div>
+                        <div class="auto cell">
+                            <li>Communication Skills</li>
+                        </div>
+                    </div>
+                </div>
             </ul>
-            <li>Experience with various platforms including Archer and ServiceNow.</li>
-        </ul>
-    </div>
-    <br>
-    
-    <h5><b>&emsp;<u>Technological Skills</u></b></h5>
 
-    <div class="grid-y">
-        <ul class="indent1">
-            <li>Languages Learned: Python, Java, C, and R</li>
-            <li>Google Cloud Platform</li>
-            <li>Expansive experience with the following operating systems: Windows, Linux, and MacOS</li>
-            <li>Microsoft Office: Word, Excel, and PowerPoint</li>
-            <li>Applications used: PyCharm, Eclipse, IntelliJ IDEA, SQL Developer, and Secure CRT</li>
-        </ul>
-    </div>
+            <br>
 
-    <br>
-    
-    <h5><b>&emsp;<u>Certifications and Accomplishments</u></b></h5>
-
-    <div class="grid-y">
-        <ul class="indent1">
-            <li>
+            <h5><b>&emsp;<u>Education</u></b></h5>
+            <div class="grid-y">
                 <div class="grid-x grid-padding-x">
-                    <div class="small-auto medium-7 cell"><h7>Google IT Support Professional Certificate</h7></div>
-                    <div class="small-auto medium-5 cell"><h7><u>Issued by Coursera in August 2020</u></h7></div>
+                    <div class="small-auto medium-9 cell">
+                        <h7><a href="https://www.stthomas.edu" target="_blank"> University of St. Thomas</a></h7>
+                    </div>
+                    <div class="small-auto medium-3 cell">
+                        <h7><u>2018 - 2022</u></h7>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <div class="grid-x grid-padding-x">
-                    <div class="small-auto medium-8 cell"><h7>Deans List</h7></div>
-                    <div class="small-auto medium-4 cell"><h7><u>Fall 2018</u></h7></div>
+            </div>
+            <div class="grid-y">
+                <div class="grid-x grid-padding-x indent1">
+                    <div class="auto cell"> <b>Major:</b> Computer Science</div>
                 </div>
-            </li>
-            <li>
-                <div class="grid-x grid-padding-x">
-                    <div class="small-auto medium-8 cell"><h7>250+ hours volunteering at St. John's Hospital</h7></div>
-                    <div class="small-auto medium-4 cell"><h7><u>2015-2018</u></h7></div>
+                <div class="grid-x grid-padding-x indent1">
+                    <div class="auto cell"> <b>Minor:</b> Applied Statistics</div>
                 </div>
-         </li>
-            <li>
-                <div class="grid-x grid-padding-x">
-                    <div class="auto cell"><h7>Graduated Top 20% at Mahtomedi High School</h7></div>
-                </div>
-            </li>
-        
-        </ul>
+            </div>
+            <br>
 
-        
+            <h5><b>&emsp;<u>Work Experience</u></b></h5>
+            <div class="grid-y">
+                <div class="grid-x grid-padding-x">
+                    <div class="small-9 cell">
+                        <h7><a href="https://www.bestbuy.com/" target="_blank"> &emsp;&emsp;Best Buy</a></h7>
+                    </div>
+                </div>
+                <ul class="indent1">
+                    <li>Assisted with the Information Security Risk Management Program:</li>
+                    <ul class="indent2">
+                        <li>Performed review and validation of known issues and threats.</li>
+                        <li>Engaged with various stakeholders to drive remediation.</li>
+                        <li>Collaborated with several business units and leaders to improve awareness and
+                            accountability.</li>
+                        <li>Updated and revised the organization’s Information Security Standards and Questionnaire.
+                        </li>
+                    </ul>
+                    <li>Assisted with the Information Security Risk Quantification Project:</li>
+                    <ul class="indent2">
+                        <li>Maintained project documentation.</li>
+                        <li>Conducted meetings with stakeholders.</li>
+                        <li>Identified areas of risk for potential short-term and long-term improvement.</li>
+                    </ul>
+                    <li>Experience with various platforms including Archer and ServiceNow.</li>
+                </ul>
+            </div>
+            <br>
+
+            <h5><b>&emsp;<u>Technological Skills</u></b></h5>
+
+            <div class="grid-y">
+                <ul class="indent1">
+                    <li>Languages Learned: Python, Java, C, and R</li>
+                    <li>Google Cloud Platform</li>
+                    <li>Expansive experience with the following operating systems: Windows, Linux, and MacOS</li>
+                    <li>Microsoft Office: Word, Excel, and PowerPoint</li>
+                    <li>Applications used: PyCharm, Eclipse, IntelliJ IDEA, SQL Developer, and Secure CRT</li>
+                </ul>
+            </div>
+
+            <br>
+
+            <h5><b>&emsp;<u>Certifications and Accomplishments</u></b></h5>
+
+            <div class="grid-y">
+                <ul class="indent1">
+                    <li>
+                        <div class="grid-x grid-padding-x">
+                            <div class="small-auto medium-7 cell">
+                                <h7>Google IT Support Professional Certificate</h7>
+                            </div>
+                            <div class="small-auto medium-5 cell">
+                                <h7><u>Issued by Coursera in August 2020</u></h7>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid-x grid-padding-x">
+                            <div class="small-auto medium-8 cell">
+                                <h7>Deans List</h7>
+                            </div>
+                            <div class="small-auto medium-4 cell">
+                                <h7><u>Fall 2018</u></h7>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid-x grid-padding-x">
+                            <div class="small-auto medium-8 cell">
+                                <h7>250+ hours volunteering at St. John's Hospital</h7>
+                            </div>
+                            <div class="small-auto medium-4 cell">
+                                <h7><u>2015-2018</u></h7>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid-x grid-padding-x">
+                            <div class="auto cell">
+                                <h7>Graduated Top 20% at Mahtomedi High School</h7>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+        <br><br><br>
+
+
+        <div class="center">
+            <h4>Thank you for visiting!</h4>
+            <br>
+            <p>If you would like to return to the previous page, please click <a href="index.html"
+                    target="_self">here</a>
+            <p>If you have any questions, feel free to contact my email: <u>joe@cyriacs.com</u>.</p>
+        </div>
+
     </div>
-
-
-    <br><br><br>
-
-
-    <div class="center">
-        <h4>Thank you for visiting this page!</h4>
-        <br>
-        <p>If you would like to return to the previous page, please click <a href="index.html" target="_self">here</a>
-        <p>If you have any questions, feel free to contact my email: <u>joe@cyriacs.com</u>.</p>
-    </div>
-
-
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/vendor.js"></script>
     <script src="js/foundation.js"></script>

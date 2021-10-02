@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Hobby</title>
+    <title>Fun</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/foundation.css">
@@ -10,86 +10,115 @@
 </head>
 
 <body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+            <h3 class="text-center"> Browse Pages
+                <button style="float: right;" type="button" data-close>
+                    <span>&times;</span>
+                </button>
+            </h3>
 
-    <h1>Welcome to my Hobby Page!</h1>
-    <h2 class="center">On this page, you will get to know a little more about my interests and what I like to do in my
-        free time.</h2>
+            <ul class="menu vertical text-center" id="navmenu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="resume.html" target="_self">Resume</a></li>
+                <li><a href="projects.html" target="_self">Projects</a></li>
+            </ul>
+        </div>
 
-    <br><br>
+        <div class="off-canvas-content" data-transition="overlap" data-off-canvas-content>
+            <button class="menu-icon cell small-4 flex-container align-middle" data-open="offCanvas"
+                style="color: black; float: left"></button>
+            <br>
+            <h1 class="center"><b>Fun</b></h1>
+            <h2 class="center">Welcome! On this page, you will get to know a little more about my interests and what I like to do
+                in my
+                free time.</h2>
 
-    <h3><b><u>Movies</u></b></h3>
-    <div class="grid-y">
-        <div class="grid-x grid-padding-x grid-padding-x">
-            <div class="cell small-auto medium-auto large-3">
-                <img src="images/marvel.jpeg" width="350" height="400" alt="Image of Marvel logo">
+            <br><br>
+
+            <h3><b><u>Movies</u></b></h3>
+            <div class="grid-y">
+                <div class="grid-x grid-padding-x grid-padding-x">
+                    <div class="cell small-auto medium-auto large-3 center">
+                        <img src="images/marvel.png" width="350" height="400" alt="Image of Marvel logo">
+                    </div>
+                    <div class="cell small-auto medium-auto large-9">
+                        <br>
+                        <p> I love watching movies in my free time. Some genres that I love are <i>Comedy</i>,
+                            <i>Action</i>,
+                            <i>Adventure</i>, and <i>Mystery</i>. This is one of many things my family loves to do
+                            together.
+                            I try to watch a new movie every week!
+                        </p>
+                        <p>I have been a fan of Marvel characters since I was little and continue to watch all their
+                            corresponding movies to this day. The most recent Marvel movie I have seen is Shang Chi.</p>
+                    </div>
+                </div>
             </div>
-            <div class="cell small-auto medium-auto large-9">
-                <br>
-                <p> I love watching movies in my free time. Some genres that I love are <i>Comedy</i>, <i>Action</i>,
-                    <i>Adventure</i>, and <i>Mystery</i>. This is one of many things my family loves to do together.
-                    I try to watch a new movie every week!</p>
-                <p>I have been a fan of Marvel characters since I was little and continue to watch all their
-                    corresponding movies to this day. The most recent Marvel movie I have seen is Shang Chi.</p>
+            <br><br>
+            <h3><b><u>Sports</u></b></h3>
+            <div class="grid-y">
+                <div class="grid-x grid-padding-x grid-padding-x">
+                    <div class="cell small-auto medium-auto large-9">
+                        <br>
+                        <p>The only sport I actively watch is football. My favorite NFL team is the <a
+                                href="https://www.vikings.com" target="_blank">Minnesota Vikings</a>. Every year I watch
+                            them
+                            lose, but still continue to support them.
+                            I hope they win a Super Bowl at some point during my lifetime!
+                        </p>
+                        <br>
+                        <p>Throughout middle school and high school, I was on the track and field team. A proud
+                            achievement of
+                            mine is that I made the varsity team freshman year.
+                            I participated in the 100-meter dash, 200-meter dash, and the 4x100 relay (which is a relay
+                            of 4
+                            runners that run 100 meters each).
+                        </p>
+                    </div>
+                    <div class="cell small-auto center medium-auto large-3">
+                        <img src="images/vikings.png" width="220" height="260" alt="Image of Vikings logo">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <h3><b><u>Music</u></b></h3>
+            <div class="grid-y">
+                <div class="grid-x grid-padding-x grid-padding-x">
+                    <div class="cell center small-auto medium-auto large-3">
+                        <img src="images/concertpic.PNG" width="350" height="400"
+                            alt="Image of Post Malone and Swae Lee">
+                    </div>
+                    <div class="cell small-auto medium-auto large-9">
+                        <br><br>
+                        <p>This is a picture I took in 2019 of <a href="https://en.wikipedia.org/wiki/Post_Malone"
+                                target="_blank">Post Malone</a> and <a href="https://en.wikipedia.org/wiki/Swae_Lee"
+                                target="_blank">Swae Lee</a>
+                            performing the song <a href="https://www.youtube.com/watch?v=ApXoWvfEYVU"
+                                target="_blank">Sunflower</a>. I love listening to music whenever I can. Currently, I do
+                            not
+                            have a favorite genre of music, but
+                            I mostly listening to <u>Rap</u> and <u>Hip-Hop</u>. My top 3 favorite artists are <a
+                                href="https://en.wikipedia.org/wiki/Post_Malone" target="_blank">Post Malone</a>,
+                            <a href="https://en.wikipedia.org/wiki/Travis_Scott" target="_blank">Travis Scott</a>, and
+                            <a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">Drake</a>.
+                        </p>
+                        <p>I also love going to concerts. I have been to 6 so far and hope to go to many more in the
+                            future!</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <br><br>
-    <h3><b><u>Sports</u></b></h3>
-    <div class="grid-y">
-        <div class="grid-x grid-padding-x grid-padding-x">
-            <div class="cell small-auto medium-auto large-9">
-                <br>
-                <p>The only sport I actively watch is football. My favorite NFL team is the <a
-                        href="https://www.vikings.com" target="_blank">Minnesota Vikings</a>. Every year I watch them
-                    lose, but still continue to support them.
-                    I hope they win a Super Bowl at somepoint during my lifetime!
-                </p>
-                <br>
-                <p>Throughout middle school and high school, I was on the track and field team. A proud achievement of
-                    mine is that I made the varsity team freshman year.
-                    I participated in the 100 meter dash, 200 meter dash, and the 4x100 relay (which is a relay of 4
-                    runners that run 100 meters each).
-                </p>
-            </div>
-            <div class="cell small-auto medium-auto large-3">
-                <img src="images/vikings.jpg" width="350" height="400" alt="Image of Vikings logo">
-            </div>
+        <br><br><br>
+
+        <div class="center">
+            <h4>Thank you for visiting!</h4>
+            <br>
+            <p>If you would like to return to the previous page, please click <a href="index.html"
+                    target="_self">here</a>
+            <p>If you have any questions, feel free to contact my email: <u>joe@cyriacs.com</u>.</p>
         </div>
     </div>
-    <br><br>
-    <h3><b><u>Music</u></b></h3>
-    <div class="grid-y">
-        <div class="grid-x grid-padding-x grid-padding-x">
-            <div class="cell small-auto medium-auto large-3">
-                <img src="images/concertpic.PNG" width="350" height="400" alt="Image of Post Malone and Swae Lee">
-            </div>
-            <div class="cell small-auto medium-auto large-9">
-                <br><br>
-                <p>This is a picture I took in 2019 of <a href="https://en.wikipedia.org/wiki/Post_Malone"
-                        target="_blank">Post Malone</a> and <a href="https://en.wikipedia.org/wiki/Swae_Lee"
-                        target="_blank">Swae Lee</a>
-                    performing the song <a href="https://www.youtube.com/watch?v=ApXoWvfEYVU"
-                        target="_blank">Sunflower</a>. I love listening to music whenever I can. Currently, I do not
-                    have a favorite genre of music, but
-                    I mostly listening to <u>Rap</u> and <u>Hip-Hop</u>. My top 3 favorite artists are <a
-                        href="https://en.wikipedia.org/wiki/Post_Malone" target="_blank">Post Malone</a>,
-                    <a href="https://en.wikipedia.org/wiki/Travis_Scott" target="_blank">Travis Scott</a>, and <a
-                        href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">Drake</a>.
-                </p>
-                <p>I also love going to concerts. I have been to 6 so far and hope to go to many more in the future!</p>
-            </div>
-        </div>
-    </div>
-
-    <br><br><br>
-
-    <div class="center">
-        <h4>Thank you for visiting this page!</h4>
-        <br>
-        <p>If you would like to return to the previous page, please click <a href="index.html" target="_self">here</a>
-        <p>If you have any questions, feel free to contact my email: <u>joe@cyriacs.com</u>.</p>
-    </div>
-
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/vendor.js"></script>
