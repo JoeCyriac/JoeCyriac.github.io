@@ -62,3 +62,10 @@ ul>li>a {
     width: 40px;
 }
 
+.indent1 {
+    padding-left: 40px;
+}
+
+.indent2 {
+    padding-left: 20px;
+}
