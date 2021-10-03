@@ -23,7 +23,7 @@ h2 {
 }
 
 body {
-    background-color: #16c0c9;
+    background-color: #61bdc2;
 }
 
 p {
@@ -39,7 +39,7 @@ a:link {
 } 
 
 a:visited { 
-    color: #303282; 
+    color: #8e4bbd; 
 }
 
 a:hover { 
@@ -47,7 +47,7 @@ a:hover {
 }
 
 ul>li>a>p {
-    font-size: 12px;
+    font: normal 1rem Arial;
 }
 
 ul>li>a:hover {
@@ -58,8 +58,9 @@ ul>li>a {
     color:black
 }
 
-.button{
-    width: 40px;
+.button {
+    width: 45px;
+    height: 10px;
 }
 
 .indent1 {
