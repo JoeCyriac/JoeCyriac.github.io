@@ -10,14 +10,6 @@ h2 {
     text-align: center;
 }
 
-.floatleft {
-    float: left;
-}
-
-.floatright {
-    float: right;
-}
-
 #paddedbox {
     padding: 20px;
 }
