@@ -62,6 +62,11 @@ ul>li>a {
 .indent2 {
     padding-left: 15px;
 }
+
+.menuColor {
+    background-color: #8bc1c4;
+}
+
 /* Used example from w3 schools for guidance for menu bar */
 .menuBar {
     background-color: #2b2b2b;
@@ -81,8 +86,4 @@ ul>li>a {
 
 .menuBar a:hover { 
     background-color: white;
-}
-
-.menuColor {
-    background-color: #8bc1c4;
 }
